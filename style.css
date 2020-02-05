@@ -1,0 +1,122 @@
+html{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* 
+===================
+  HEADER ELEMENT 
+===================
+ */
+
+header{
+    background-color: rgba(13,13,13,.75);
+    display: block;
+    padding: 10px; 
+    text-align: center;
+    /* justify-content: space-evenly; */
+}
+    nav {
+        display: inline-flex;
+        /* justify-content: space-between; */
+        width: 960px;
+    }
+
+        ul{
+            list-style: none;
+            display: inline-flex;
+        }
+            a{
+                color:white;
+            }
+
+            li{
+                margin-right: 30px;
+                padding: 25px;
+                color: white;
+            }
+
+            nav ul :first-child{
+                float: left;
+                padding: 0px;
+            } 
+
+            li:hover {
+                background-color: black;
+                color:red;
+            }
+
+/* 
+============
+MAIN ELEMENT 
+=============
+ */
+main{
+    width: 960px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+/* Each section (by rows)
+-----------------------------------*/
+section{
+    margin-bottom: 30px;
+    display: inline-flex;
+}
+
+/* articles in the middle section
+-----------------------------------*/
+article{
+    display: inline-flex;
+    margin-right: 30px;
+}
+
+/* Third section w/paragraph
+-----------------------------------*/
+#section3 article{
+    margin-left: 30px;
+    width: 450px;
+    height: 400px;
+    display: block;
+    text-align: left;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    /* border: 1px black solid; */
+}
+
+#section3 article p{
+    font-style: italic;
+    /* background-color:cornflowerblue; */
+    text-align:  left;
+    padding: 10px;
+    overflow: scroll;
+    height: 300px;
+    margin-bottom: 5px;
+    
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 14px;
+    
+}
+
+
+button:hover{
+    background-color: red;
+}
+/* FOOTER SECTION */
+
+footer{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+}
