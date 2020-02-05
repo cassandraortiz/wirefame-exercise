@@ -15,11 +15,9 @@ header{
     display: block;
     padding: 10px; 
     text-align: center;
-    /* justify-content: space-evenly; */
 }
     nav {
         display: inline-flex;
-        /* justify-content: space-between; */
         width: 960px;
     }
 
@@ -60,61 +58,62 @@ main{
     padding-top: 30px;
 }
 
-/* Each section (by rows)
------------------------------------*/
-section{
-    margin-bottom: 30px;
-    display: inline-flex;
-}
+    /* Each section (by rows)
+    -----------------------------------*/
+    section{
+        margin-bottom: 30px;
+        display: inline-flex;
+    }
 
-/* articles in the middle section
------------------------------------*/
-article{
-    display: inline-flex;
-    margin-right: 30px;
-}
+        /* articles in the middle section
+        -----------------------------------*/
+        article{
+            display: inline-flex;
+            margin-right: 30px;
+        }
 
-/* Third section w/paragraph
------------------------------------*/
-#section3 article{
-    margin-left: 30px;
-    width: 450px;
-    height: 400px;
-    display: block;
-    text-align: left;
-}
+        /* Third section w/paragraph
+        -----------------------------------*/
+        #section3 article{
+            margin-left: 30px;
+            width: 450px;
+            height: 400px;
+            display: block;
+            text-align: left;
+        }
 
-h2{
-    font-size: 20px;
-    font-weight: bold;
-    padding: 8px;
-    /* border: 1px black solid; */
-}
+            h2{
+                font-size: 20px;
+                font-weight: bold;
+                padding: 8px;
+            }
 
-#section3 article p{
-    font-style: italic;
-    /* background-color:cornflowerblue; */
-    text-align:  left;
-    padding: 10px;
-    overflow: scroll;
-    height: 300px;
-    margin-bottom: 5px;
-    
-}
+            #section3 article p{
+                font-style: italic;
+                text-align:  left;
+                padding: 10px;
+                overflow: scroll;
+                height: 300px;
+                margin-bottom: 5px;
+            }
 
-button{
-    height: 50px;
-    width: 200px;
-    font-size: 14px;
-    
-}
+            button{
+                height: 50px;
+                width: 200px;
+                font-size: 14px;
+            }
+                button:hover{
+                    background-color: red;
+                    font-size: 20px;
+                    color: white;
+                    font-weight: bold;
+                }
 
-
-button:hover{
-    background-color: red;
-}
-/* FOOTER SECTION */
-
+/* 
+============
+FOOTER ELEMENT 
+=============
+ */
 footer{
     background-color: gray;
     height: 100px;
